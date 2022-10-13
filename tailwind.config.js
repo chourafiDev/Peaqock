@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#127682",
+        "base-gray": "#474747",
+        "second-gray": "#99A5B5",
+        "third-gray": "#99A5B5",
+        "forth-gray": "#E6EAF0",
         "gray-opacity": "#25252533",
       },
       backgroundImage: {

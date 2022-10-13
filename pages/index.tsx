@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Banner from "../app/components/Banner";
+import Statistics from "../app/components/Statistics";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
 
       <main className="">
         <Banner />
+        <Statistics />
       </main>
     </div>
   );
