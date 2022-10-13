@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import Banner from "../app/components/Banner";
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        <h1 className="text-3xl font-bold underline text-cyan-500">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Banner />
       </main>
     </div>
   );
