@@ -11,7 +11,7 @@ const Banner = () => {
             Manage <br /> Operations
           </h2>
           <div>
-            <button className="btn">Learn More</button>
+            <button className="btn btn-white">Learn More</button>
           </div>
         </div>
 

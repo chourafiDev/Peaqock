@@ -4,13 +4,17 @@
 
 @layer base {
   .btn {
-    @apply rounded-full border-0 px-[40px] py-[8px] font-medium bg-white text-primary;
+    @apply rounded-full border-0 px-[40px] py-[8px] font-medium;
   }
 
-  /* .btn-primary {
-    @apply bg-primary hover:bg-dark shadow-xl shadow-primary/10;
+  .btn-white {
+    @apply bg-white text-primary;
   }
 
+  .btn-primary {
+    @apply text-white bg-green-gradient;
+  }
+  /*
   .btn-dark {
     @apply bg-dark hover:bg-primary;
   }
