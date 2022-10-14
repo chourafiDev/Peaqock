@@ -17,6 +17,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: 'url("../assets/banner-bg.jpg")',
+        services: 'url("../assets/services.svg")',
         "yellow-gradient":
           "linear-gradient(90deg, #F7AE28 -9.83%, #F8D061 104%)",
         "green-gradient":

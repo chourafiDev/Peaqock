@@ -4,5 +4,7 @@ import Icon3 from "./icons/icon-3.png";
 import africa from "./africa.png";
 import logo from "./logo.png";
 import chart from "./chart.svg";
+import about from "./about.png";
+import services from "./services.svg";
 
-export { Icon1, Icon2, Icon3, africa, logo, chart };
+export { Icon1, Icon2, Icon3, africa, logo, chart, about, services };
