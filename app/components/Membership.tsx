@@ -5,14 +5,14 @@ import Image from "next/image";
 
 const Membership = () => {
   return (
-    <div className="bg-light-gray px-20 pt-10 pb-40">
+    <div className="bg-light-gray lg:px-28 md:px-16 px-6 pt-10 pb-40">
       <div className="mb-10 text-center">
         <p className="text-second-gray mb-3 uppercase">membership</p>
-        <h1 className="text-base-gray font-bold text-2xl mb-6">
+        <h1 className="text-base-gray font-bold md:text-2xl text-xl mb-6">
           PEAQOCK Membership Packages
         </h1>
 
-        <p className="px-60 text-base-gray text-sm">
+        <p className="lg:px-60 md:px-20 px-6 text-base-gray text-sm">
           This page will highlight the different membership packages and the
           benefits and costs of each package. The initial plans to be configured
           are as presented below. The table should be configurable to update the
@@ -28,10 +28,10 @@ const Membership = () => {
         </Button>
       </div>
 
-      <div className="grid grid-cols-2 mt-28 gap-20">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-28 gap-20">
         <div className="space-y-12">
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-4">
+          <div className="flex md:flex-row flex-col md:items-center items-start md:gap-4 gap-0">
+            <div className="flex items-center gap-4 md:mb-0 mb-4">
               <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
                   <Image src={Icon1} alt="icon-1" width={55} height={55} />
@@ -50,8 +50,8 @@ const Membership = () => {
               <span className="uppercase">Free</span>
             </Button>
           </div>
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-4">
+          <div className="flex md:flex-row flex-col md:items-center items-start md:gap-4 gap-0">
+            <div className="flex items-center gap-4 md:mb-0 mb-4">
               <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
                   <Image src={Icon2} alt="icon-1" width={55} height={55} />
@@ -72,8 +72,8 @@ const Membership = () => {
           </div>
         </div>
         <div className="space-y-12">
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-4">
+          <div className="flex md:flex-row flex-col md:items-center items-start md:gap-4 gap-0">
+            <div className="flex items-center gap-4 md:mb-0 mb-4">
               <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
                   <Image src={Icon3} alt="icon-1" width={55} height={55} />
@@ -92,8 +92,8 @@ const Membership = () => {
               <span>$2.500</span>
             </Button>
           </div>
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-4">
+          <div className="flex md:flex-row flex-col md:items-center items-start md:gap-4 gap-0">
+            <div className="flex items-center gap-4 md:mb-0 mb-4">
               <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
                   <Image src={Icon4} alt="icon-1" width={55} height={55} />
