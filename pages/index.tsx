@@ -3,6 +3,7 @@ import Head from "next/head";
 import Banner from "../app/components/Banner";
 import Membership from "../app/components/Membership";
 import NewsLetter from "../app/components/NewsLetter";
+import Services from "../app/components/Services";
 import Statistics from "../app/components/Statistics";
 
 const Home: NextPage = () => {
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <main className="">
         <Banner />
         <Statistics />
+        <Services />
         <Membership />
         <NewsLetter />
       </main>

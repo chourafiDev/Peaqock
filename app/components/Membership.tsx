@@ -7,7 +7,7 @@ const Membership = () => {
   return (
     <div className="bg-light-gray px-20 pt-10 pb-40">
       <div className="mb-10 text-center">
-        <p className="text-second-gray mb-3">membership</p>
+        <p className="text-second-gray mb-3 uppercase">membership</p>
         <h1 className="text-base-gray font-bold text-2xl mb-6">
           PEAQOCK Membership Packages
         </h1>

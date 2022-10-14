@@ -1,14 +1,27 @@
 import { FiMapPin } from "react-icons/fi";
-import { BiEnvelope } from "react-icons/bi";
+import { BiEnvelope, BiMenuAltLeft } from "react-icons/bi";
 import { BsTelephone } from "react-icons/bs";
+import { AiOutlineArrowUp } from "react-icons/ai";
 import { africa } from "../../../../assets";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "../../../components/Utils/Button";
 
 const Footer = () => {
   return (
     <div className="bg-forth-gray px-20">
       <div className="py-12">
+        <div className="flex justify-end">
+          <div className="flex items-center gap-3">
+            <Button cssClasses="btn btn-yellow flex items-center gap-2 px-4">
+              <BiMenuAltLeft className="font-bold" />
+              <span className="font-normal">Support</span>
+            </Button>
+            <Button cssClasses="btn btn-yellow rounded-full p-2">
+              <AiOutlineArrowUp className="font-bold" size={25} />
+            </Button>
+          </div>
+        </div>
         <div className="grid grid-cols-4">
           <div className="col-span-2 pr-36">
             <h3 className="text-primary font-bold text-xl pb-6">Contact Us</h3>
