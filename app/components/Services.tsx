@@ -6,11 +6,11 @@ import Button from "./Utils/Button";
 const Services = () => {
   return (
     <div className="bg-light-gray relative bg-services bg-no-repeat bg-cover bg-center">
-      <div className="px-28 pb-32 pt-20">
-        <div className="w-full grid grid-cols-2 items-center justify-between gap-40">
+      <div className="lg:px-28 md:px-16 px-6 pb-32 pt-20">
+        <div className="w-full grid md:grid-cols-2 grid-cols-1 items-center justify-between lg:gap-40 md:gap-20 gap-6">
           <div>
             <p className="uppercase text-second-gray mb-3">Our Services</p>
-            <h2 className="text-base-gray font-bold text-5xl mb-8">
+            <h2 className="text-base-gray font-bold lg:text-5xl text-4xl mb-8">
               <span className="text-gold">Trade</span> Simple,
             </h2>
             <p className="text-base-gray text-sm pb-14 leading-loose">

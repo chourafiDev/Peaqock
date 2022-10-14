@@ -5,11 +5,11 @@ import Button from "./Utils/Button";
 const About = () => {
   return (
     <div className="bg-light-gray">
-      <div className="px-28 py-16">
-        <div className="w-full grid grid-cols-2 gap-32 items-center justify-between">
+      <div className="lg:px-28 md:px-16 px-6 py-16">
+        <div className="w-full grid md:grid-cols-2 grid-cols-1 lg:gap-32 gap-10 items-center justify-between">
           <div>
             <p className="uppercase text-second-gray mb-3">About Us</p>
-            <h2 className="text-base-gray font-bold text-3xl mb-6 leading-relaxed">
+            <h2 className="text-base-gray font-bold lg:text-3xl text-xl mb-6 leading-relaxed">
               PEAQOCK is a member <br /> driven network
             </h2>
             <p className="text-base-gray text-sm pb-14">
