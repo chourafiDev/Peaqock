@@ -1,6 +1,6 @@
 import Button from "./Utils/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { Icon1, Icon2, Icon3 } from "../../assets";
+import { Icon1, Icon2, Icon3, Icon4 } from "../../assets";
 import Image from "next/image";
 
 const Membership = () => {
@@ -34,7 +34,7 @@ const Membership = () => {
             <div className="flex items-center gap-4">
               <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
-                  <Image src={Icon1} alt="icon-1" width={30} height={30} />
+                  <Image src={Icon1} alt="icon-1" width={55} height={55} />
                 </div>
               </div>
               <div>
@@ -52,9 +52,9 @@ const Membership = () => {
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-4">
-              <div className="inline-block bg-third-gray/10 p-3 rounded-lg">
+              <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
-                  <Image src={Icon2} alt="icon-1" width={40} height={40} />
+                  <Image src={Icon2} alt="icon-1" width={55} height={55} />
                 </div>
               </div>
               <div>
@@ -74,9 +74,9 @@ const Membership = () => {
         <div className="space-y-12">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-4">
-              <div className="inline-block bg-third-gray/10 p-3 rounded-lg">
+              <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
-                  <Image src={Icon3} alt="icon-1" width={40} height={40} />
+                  <Image src={Icon3} alt="icon-1" width={55} height={55} />
                 </div>
               </div>
               <div>
@@ -94,9 +94,9 @@ const Membership = () => {
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-4">
-              <div className="inline-block bg-third-gray/10 p-3 rounded-lg">
+              <div className="inline-block bg-third-gray/10 p-4 rounded-lg">
                 <div className="flex">
-                  <Image src={Icon2} alt="icon-1" width={40} height={40} />
+                  <Image src={Icon4} alt="icon-1" width={55} height={55} />
                 </div>
               </div>
               <div>

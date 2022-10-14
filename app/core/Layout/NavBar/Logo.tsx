@@ -3,7 +3,7 @@ import { logo } from "../../../../assets";
 
 const Logo = () => {
   return (
-    <div className="flex pl-20">
+    <div className="flex">
       <Image src={logo} alt="peaqock_logo" width={180} height={35} />
     </div>
   );

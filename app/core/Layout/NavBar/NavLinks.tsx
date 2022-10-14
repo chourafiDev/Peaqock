@@ -9,7 +9,7 @@ const NavLinks = () => {
     { link: "/Contact", name: "Contact us" },
   ];
   return (
-    <div>
+    <div className="lg:block hidden">
       <ul className="flex items-center gap-8 text-white uppercase font-normal">
         {links.map(({ link, name }) => (
           <li key={name}>
