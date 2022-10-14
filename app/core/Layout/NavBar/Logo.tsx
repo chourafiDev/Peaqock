@@ -1,10 +1,10 @@
 import Image from "next/image";
-import logo from "../../../../assets/logo.png";
+import { logo } from "../../../../assets";
 
 const Logo = () => {
   return (
     <div className="flex pl-20">
-      <Image src={logo} alt="peaqock_logo" width={180} height={40} />
+      <Image src={logo} alt="peaqock_logo" width={180} height={35} />
     </div>
   );
 };

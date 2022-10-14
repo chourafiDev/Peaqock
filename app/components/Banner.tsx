@@ -1,4 +1,5 @@
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+import Button from "../components/Utils/Button";
 
 const Banner = () => {
   return (
@@ -11,7 +12,7 @@ const Banner = () => {
             Manage <br /> Operations
           </h2>
           <div>
-            <button className="btn btn-white">Learn More</button>
+            <Button cssClasses="btn btn-white">Learn More</Button>
           </div>
         </div>
 

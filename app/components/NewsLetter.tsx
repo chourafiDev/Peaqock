@@ -1,4 +1,5 @@
 import { HiOutlineArrowSmRight } from "react-icons/hi";
+import Button from "./Utils/Button";
 
 const NewsLetter = () => {
   return (
@@ -15,10 +16,10 @@ const NewsLetter = () => {
             placeholder="Your email adress"
             className="bg-transparent outline-none px-6 w-[28rem] text-md text-second-gray"
           />
-          <button className="flex items-center gap-2 btn btn-primary">
+          <Button cssClasses="flex items-center gap-2 btn btn-green font-normal">
             <span>Subscribe</span>
             <HiOutlineArrowSmRight />
-          </button>
+          </Button>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { FiMapPin } from "react-icons/fi";
 import { BiEnvelope } from "react-icons/bi";
 import { BsTelephone } from "react-icons/bs";
-import africa from "../../../../assets/africa.png";
+import { africa } from "../../../../assets";
 import Link from "next/link";
 import Image from "next/image";
 

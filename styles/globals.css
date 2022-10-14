@@ -11,20 +11,21 @@
     @apply bg-white text-primary;
   }
 
-  .btn-primary {
+  .btn-green {
     @apply text-white bg-green-gradient;
   }
-  /*
-  .btn-dark {
-    @apply bg-dark hover:bg-primary;
+
+  .btn-blue {
+    @apply text-white bg-blue-gradient;
   }
 
-  .card {
-    @apply bg-dark/20 backdrop-blur-md border border-white/10 rounded-lg p-4;
+  .btn-yellow {
+    @apply text-white bg-yellow-gradient;
   }
-  .card-transparent {
-    @apply bg-dark/30 border border-white/10 rounded-lg p-4;
-  } */
+
+  .btn-purple {
+    @apply text-white bg-purple-gradient;
+  }
 }
 
 .link-hover {
