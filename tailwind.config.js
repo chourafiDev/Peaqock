@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./app/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./routes/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -16,8 +20,8 @@ module.exports = {
         "gray-opacity": "#25252533",
       },
       backgroundImage: {
-        banner: 'url("../assets/banner-bg.jpg")',
-        services: 'url("../assets/services.svg")',
+        banner: 'url("../assets/images/banner-bg.jpg")',
+        services: 'url("../assets/images/services.svg")',
         "yellow-gradient":
           "linear-gradient(90deg, #F7AE28 -9.83%, #F8D061 104%)",
         "green-gradient":

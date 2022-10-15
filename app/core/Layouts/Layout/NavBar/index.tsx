@@ -14,11 +14,11 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="fixed pl-20 top-0 w-full flex justify-between items-center z-40 bg-gray-opacity backdrop-blur-[5px]">
+      <nav className="fixed lg:pl-20 pl-5 top-0 w-full flex justify-between items-center z-40 bg-gray-opacity backdrop-blur-[5px]">
         <Logo />
         <div className="flex items-center gap-16">
           <NavLinks />
-          <div className="lg:block hidden">
+          <div className="lg:block hidden w-56">
             <NavBarButtons />
           </div>
           <ToggelButton handelNav={handelNav} />

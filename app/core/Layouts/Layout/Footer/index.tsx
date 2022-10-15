@@ -2,10 +2,10 @@ import { FiMapPin } from "react-icons/fi";
 import { BiEnvelope, BiMenuAltLeft } from "react-icons/bi";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { africa } from "../../../../assets";
+import { africa } from "../../../../../assets/images";
 import Link from "next/link";
 import Image from "next/image";
-import Button from "../../../components/Utils/Button";
+import Button from "../../../../components/Utils/Button";
 
 const Footer = () => {
   return (
@@ -56,7 +56,7 @@ const Footer = () => {
             <h3 className="text-primary font-bold text-xl pb-6">
               About Peaqock
             </h3>
-            <ul className="flex flex-col gap-3 text-[15px] text-base-gray">
+            <ul className="flex flex-col gap-3 text-[15px]">
               <li className="flex gap-3">
                 <Link href="#">
                   <a className="link-hover">Privacy Statement</a>

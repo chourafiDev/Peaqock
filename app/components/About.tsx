@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { about } from "../../assets";
+import { about } from "../../assets/images";
 import Button from "./Utils/Button";
 
 const About = () => {

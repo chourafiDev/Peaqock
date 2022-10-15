@@ -28,8 +28,33 @@
   }
 }
 
+/* Sofia Font */
+@font-face {
+  font-family: "Sofia";
+  src: url("/assets/fonts/Sofia\ Pro\ Black\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Black\ Italic\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Bold\ Italic\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ ExtraLight\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ ExtraLight\ Italic\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Light\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Light\ Italic\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Medium\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Medium\ Italic\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Regular\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Regular\ Italic\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ Semi\ Bold\ Italic\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ UltraLight\ Az.otf");
+  src: url("/assets/fonts/Sofia\ Pro\ UltraLight\ Italic\ Az.otf");
+}
+
+* {
+  font-family: "Sofia", sans-serif;
+}
+
 .link-hover {
   position: relative;
+  color: #474747;
 }
 
 .link-hover::before {
@@ -49,4 +74,41 @@
 .link-hover:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+}
+
+.link-hover:hover {
+  color: #127682;
+}
+
+/* Override antd styles */
+.ant-layout-sider {
+  background-color: #127682 !important;
+  margin: 1.5rem;
+  border-radius: 25px;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub,
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon + span,
+.ant-menu-dark .ant-menu-item-selected .anticon + span,
+.ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon,
+.ant-menu-dark .ant-menu-item-selected .anticon {
+  color: #f7ae28 !important;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item > .ant-menu-title-content,
+.ant-menu-inline.ant-menu-root
+  .ant-menu-submenu-title
+  > .ant-menu-title-content,
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-item .anticon,
+.ant-menu-submenu-title .anticon {
+  color: #ffffff !important;
+  font-size: 14px;
 }

@@ -1,7 +1,7 @@
 import { BiUserCircle } from "react-icons/bi";
 import { BsChevronDown } from "react-icons/bs";
 import { AiOutlineMessage } from "react-icons/ai";
-import Button from "../../../components/Utils/Button";
+import Button from "../../../../components/Utils/Button";
 
 const NavBarButtons = () => {
   return (
@@ -10,9 +10,9 @@ const NavBarButtons = () => {
         <AiOutlineMessage size={25} />
         <span>Let&apos;s talk</span>
       </Button>
-      <div className="h-full w-[5px] bg-white"></div>
-      <Button cssClasses="bg-yellow-gradient flex items-center justify-center gap-2 text-white h-full w-full">
+      <Button cssClasses="bg-yellow-gradient flex items-center justify-center gap-2 text-white h-full w-full border-l border-white">
         <BiUserCircle size={25} />
+        <BsChevronDown size={20} />
       </Button>
     </div>
   );

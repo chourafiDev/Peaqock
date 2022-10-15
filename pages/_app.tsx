@@ -1,13 +1,9 @@
 import "../styles/globals.css";
+import "antd/dist/antd.css";
 import type { AppProps } from "next/app";
-import AppLayout from "../app/core/Layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <AppLayout>
-      <Component {...pageProps} />
-    </AppLayout>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;

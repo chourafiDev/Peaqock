@@ -10,11 +10,11 @@ const NavLinks = () => {
   ];
   return (
     <div className="lg:block hidden">
-      <ul className="flex items-center gap-8 text-white uppercase font-normal">
+      <ul className="flex items-center gap-8 text-white uppercase font-normal m-0">
         {links.map(({ link, name }) => (
           <li key={name}>
             <Link href={link}>
-              <a className="flex gap-3 items-center">
+              <a className="flex gap-3 items-center text-white">
                 <span>{name}</span> <BsChevronDown size={12} />
               </a>
             </Link>

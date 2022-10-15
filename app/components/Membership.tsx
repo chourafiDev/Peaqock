@@ -1,6 +1,6 @@
 import Button from "./Utils/Button";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { Icon1, Icon2, Icon3, Icon4 } from "../../assets";
+import { Icon1, Icon2, Icon3, Icon4 } from "../../assets/images";
 import Image from "next/image";
 
 const Membership = () => {
@@ -45,7 +45,7 @@ const Membership = () => {
                 </p>
               </div>
             </div>
-            <Button cssClasses="btn btn-green w-[12rem] flex justify-between items-center font-normal text-[10px] px-4 py-3 rounded-lg bg-green-gradient-2">
+            <Button cssClasses="btn btn-green w-[14rem] flex justify-between items-center font-normal text-[10px] px-3 py-3 rounded-lg bg-green-gradient-2">
               <span>View Details</span>
               <span className="uppercase">Free</span>
             </Button>
@@ -65,7 +65,7 @@ const Membership = () => {
                 </p>
               </div>
             </div>
-            <Button cssClasses="btn btn-blue w-[12rem] flex justify-between items-center font-normal text-[10px] px-4 py-3 rounded-lg">
+            <Button cssClasses="btn btn-blue w-[14rem] flex justify-between items-center font-normal text-[10px] px-4 py-3 rounded-lg">
               <span>View Details</span>
               <span>$1.500</span>
             </Button>
@@ -87,7 +87,7 @@ const Membership = () => {
                 </p>
               </div>
             </div>
-            <Button cssClasses="btn btn-yellow w-[12rem] flex justify-between items-center font-normal text-[10px] px-4 py-3 rounded-lg">
+            <Button cssClasses="btn btn-yellow w-[14rem] flex justify-between items-center font-normal text-[10px] px-3 py-3 rounded-lg">
               <span>View Details</span>
               <span>$2.500</span>
             </Button>
@@ -107,7 +107,7 @@ const Membership = () => {
                 </p>
               </div>
             </div>
-            <Button cssClasses="btn btn-purple w-[12rem] flex justify-between items-center font-normal text-[10px] px-4 py-3 rounded-lg">
+            <Button cssClasses="btn btn-purple w-[14rem] flex justify-between items-center font-normal text-[10px] px-3 py-3 rounded-lg">
               <span>View Details</span>
               <span>$5.000</span>
             </Button>

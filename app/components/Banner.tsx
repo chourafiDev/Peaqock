@@ -1,18 +1,24 @@
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+import { BsPlayFill } from "react-icons/bs";
 import Button from "../components/Utils/Button";
 
 const Banner = () => {
   return (
-    <div className="relative bg-banner bg-no-repeat bg-cover bg-center h-screen">
+    <div className="relative bg-banner bg-no-repeat bg-cover bg-center h-[50rem]">
       <div className="absolute top-0 left-0 h-full w-full bg-primary/70"></div>
 
-      <div className="absolute flex bottom-0 left-0 w-full bg-gray-opacity backdrop-blur-[5px] px-20 py-8">
+      <div className="absolute flex  md:flex-row flex-col bottom-0 left-0 w-full bg-gray-opacity backdrop-blur-[5px] lg:px-20 md:px-10 px-6 py-8">
         <div className="flex-2 w-[60%] space-y-8">
-          <h2 className="text-white font-bold text-[50px] leading-snug uppercase">
+          <h2 className="text-white font-bold md:text-[50px] text-3xl leading-snug uppercase">
             Manage <br /> Operations
           </h2>
-          <div>
+          <div className="flex items-center gap-2">
             <Button cssClasses="btn btn-white">Learn More</Button>
+            <div className="border border-dashed border-white rounded-full p-1">
+              <Button cssClasses="btn btn-yellow p-[8px]">
+                <BsPlayFill className="text-white" />
+              </Button>
+            </div>
           </div>
         </div>
 
