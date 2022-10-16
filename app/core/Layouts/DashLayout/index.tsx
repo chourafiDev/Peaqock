@@ -1,13 +1,6 @@
 import NavBar from "./NavBar";
 import SideBar from "./SideBar";
 
-import {
-  DesktopOutlined,
-  FileOutlined,
-  PieChartOutlined,
-  TeamOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
 import type { MenuProps } from "antd";
 import { Layout } from "antd";
 import React, { useState } from "react";
@@ -42,24 +35,18 @@ const DashboardLayout = ({ children }: IProps) => {
   };
 
   return (
-    <Layout style={{ minHeight: "100vh" }}>
-      {/* <div> */}
-      <Sider
-        collapsible
-        collapsed={collapsed}
-        trigger={null}
-        //   onCollapse={(value) => setCollapsed(value)}
-        // className="my-10"
-      >
-        <SideBar handleCollapsed={handleCollapsed} />
-      </Sider>
-      {/* </div> */}
+    <div className="relative">
+      <Layout style={{ minHeight: "100vh" }}>
+        <Sider collapsible collapsed={collapsed} trigger={null}>
+          <SideBar handleCollapsed={handleCollapsed} />
+        </Sider>
 
-      <Layout className="site-layout">
-        <NavBar />
-        {children}
+        <Layout className="site-layout">
+          <NavBar />
+          {children}
+        </Layout>
       </Layout>
-    </Layout>
+    </div>
   );
 };
 

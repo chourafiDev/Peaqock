@@ -7,6 +7,10 @@
     @apply rounded-full border-0 px-[40px] py-[8px] font-medium;
   }
 
+  .btn-primary {
+    @apply bg-primary text-white;
+  }
+
   .btn-white {
     @apply bg-white text-primary;
   }
@@ -80,10 +84,11 @@
   color: #127682;
 }
 
-/* Override antd styles */
+/* --------------------------- Override antd styles --------------------------- */
+/* Layout antd */
 .ant-layout-sider {
   background-color: #127682 !important;
-  margin: 1.5rem;
+  margin: 1.5rem 0 1.5rem 1.5rem;
   border-radius: 25px;
 }
 
@@ -111,4 +116,58 @@
 .ant-menu-submenu-title .anticon {
   color: #ffffff !important;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 425px) {
+  .ant-layout-sider {
+    margin: 0.2rem 0 0.2rem 0.2rem;
+    border-radius: 10px;
+  }
+}
+
+/* Select antd */
+.ant-select-dropdown {
+  background-color: #e9ecf0 !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #dde1e0 !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #e9ecf0 !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 43px !important;
+}
+
+.ant-select-single .ant-select-selector .ant-select-selection-item,
+.ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 45px !important;
+  color: #99a5b5;
+}
+
+/* Date picker */
+.ant-picker {
+  background-color: #e9ecf0 !important;
+  border: none !important;
+}
+
+.ant-picker-focused {
+  border-bottom: 2px #127682 solid !important;
+  border-radius: 5px !important;
+}
+
+.ant-picker-input > input {
+  line-height: 35px !important;
+  color: #99a5b5 !important;
+}
+
+.ant-select-focused {
+  outline: none !important;
+  border-bottom: 2px #127682 solid !important;
+  border-radius: 5px !important;
 }

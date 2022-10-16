@@ -19,6 +19,10 @@ module.exports = {
         "light-gray": "#F4F6FA",
         "gray-opacity": "#25252533",
       },
+      boxShadow: {
+        custom: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+        "custom-2": "20px 0px 50px -30px rgba(0, 111, 96, 0.6)",
+      },
       backgroundImage: {
         banner: 'url("../assets/images/banner-bg.jpg")',
         services: 'url("../assets/images/services.svg")',

@@ -1,21 +1,24 @@
 import DashboradLayout from "../../app/core/Layouts/DashLayout";
-import { BsSliders } from "react-icons/bs";
-import ButtonSearch from "../../app/components/Utils/ButtonSearch";
+import { Search, Table, SmallSearch } from "../../app/components/Dashboard";
 
 const index = () => {
   return (
     <DashboradLayout>
-      <main className="py-8">
-        <div className="flex items-center gap-4 w-full px-20">
-          <div className="bg-primary/5 w-16 h-12 rounded-full flex justify-center items-center cursor-pointer">
-            <BsSliders size={16} className="text-primary " />
+      <main className="py-6 bg-forth-gray/5">
+        <div className="lg:px-20 px-5 md:block hidden">
+          <Search />
+        </div>
+
+        <div className="lg:px-20 px-1 md:hidden block ">
+          <SmallSearch />
+        </div>
+
+        <div className="flex flex-col mt-6">
+          <div className="overflow-x-auto">
+            <div className="inline-block min-w-full">
+              <Table />
+            </div>
           </div>
-          <input
-            type="text"
-            placeholder="Search by keyword"
-            className="bg-second-gray/10 py-3 px-4 rounded-md outline-none text-second-gray w-full"
-          />
-          <ButtonSearch />
         </div>
       </main>
     </DashboradLayout>

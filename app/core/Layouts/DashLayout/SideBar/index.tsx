@@ -5,7 +5,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { AiFillSetting } from "react-icons/ai";
 import { BsChevronRight } from "react-icons/bs";
 import type { MenuProps } from "antd";
-import Logo from "./Logo";
+import Logo from "../Logo";
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -41,8 +41,11 @@ const itemToggle: MenuItem[] = [getItem("", "6", <BsChevronRight size={22} />)];
 
 const index = ({ handleCollapsed }: IProps) => {
   return (
-    <div className="flex flex-col justify-between h-full">
-      <Logo />
+    <div className="flex flex-col justify-between h-full shadow-custom-2 rounded-[25px]">
+      <div className="mx-auto mt-4">
+        <Logo />
+      </div>
+
       <Menu
         theme="dark"
         defaultSelectedKeys={["1"]}
@@ -58,7 +61,7 @@ const index = ({ handleCollapsed }: IProps) => {
         />
         <div
           onClick={handleCollapsed}
-          className="bg-[#06616c] rounded-b-[25px] mx-auto"
+          className="bg-[#06616c] md:rounded-b-[25px] rounded-b-[10px] mx-auto"
         >
           <Menu
             theme="dark"
