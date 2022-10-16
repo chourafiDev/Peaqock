@@ -13,7 +13,7 @@ const Banner = () => {
             Manage <br /> Operations
           </h2>
           <div className="flex items-center gap-2">
-            <Button cssClasses="btn btn-white">Learn More</Button>
+            <Button cssClasses="btn btn-white md:px-8 px-4">Learn More</Button>
             <div className="border border-dashed border-white rounded-full p-1">
               <Button cssClasses="btn btn-yellow p-[8px]">
                 <BsPlayFill className="text-white" />

@@ -9,7 +9,7 @@ const AppLayout = ({ children }: IProps) => {
   return (
     <>
       <NavBar />
-      <main>{children}</main>
+      {children}
       <Footer />
     </>
   );

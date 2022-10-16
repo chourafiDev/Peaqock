@@ -34,7 +34,9 @@ const ResponsiveNav = ({ nav, handelNav }: IProps) => {
       >
         <div className="border-b border-white/40 pb-4 p-6">
           <div className="flex justify-between w-full items-center">
-            <Logo />
+            <div className="flex w-28">
+              <Logo />
+            </div>
             <div
               onClick={handelNav}
               className="text-white border border-white/50 rounded-full p-2"

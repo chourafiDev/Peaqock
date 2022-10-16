@@ -9,7 +9,7 @@ import Button from "../../../../components/Utils/Button";
 
 const Footer = () => {
   return (
-    <div className="bg-forth-gray md:px-20 px-5">
+    <footer className="bg-forth-gray md:px-20 px-5">
       <div className="py-12">
         <div className="flex justify-end items-center gap-3 mb-6">
           <Button cssClasses="btn btn-yellow flex items-center gap-2 px-4">
@@ -91,7 +91,7 @@ const Footer = () => {
           Copyright © 2022 . All Rights Reserved.
         </p>
       </div>
-    </div>
+    </footer>
   );
 };
 
