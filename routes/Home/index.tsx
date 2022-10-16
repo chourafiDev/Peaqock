@@ -9,14 +9,12 @@ import AppLayout from "../../app/core/Layouts/Layout";
 const index = () => {
   return (
     <AppLayout>
-      <main>
-        <Banner />
-        <Statistics />
-        <Services />
-        <About />
-        <Membership />
-        <NewsLetter />
-      </main>
+      <Banner />
+      <Statistics />
+      <Services />
+      <About />
+      <Membership />
+      <NewsLetter />
     </AppLayout>
   );
 };

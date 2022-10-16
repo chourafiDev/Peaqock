@@ -44,11 +44,11 @@ const ResponsiveNav = ({ nav, handelNav }: IProps) => {
           </div>
         </div>
 
-        <ul className="p-6 flex flex-col gap-10 text-white font-medium text-lg">
+        <ul className="p-6 flex flex-col gap-10 font-medium text-lg">
           {links.map(({ link, name }) => (
             <li key={name}>
               <Link href={link}>
-                <a className="flex gap-3 items-center">
+                <a className="flex gap-3 items-center text-white hover:text-white">
                   <span>{name}</span> <BsChevronDown size={12} />
                 </a>
               </Link>
