@@ -35,18 +35,16 @@ const DashboardLayout = ({ children }: IProps) => {
   };
 
   return (
-    <div className="relative">
-      <Layout style={{ minHeight: "100vh" }}>
-        <Sider collapsible collapsed={collapsed} trigger={null}>
-          <SideBar handleCollapsed={handleCollapsed} />
-        </Sider>
+    <Layout style={{ minHeight: "100vh" }}>
+      <Sider collapsible collapsed={collapsed} trigger={null}>
+        <SideBar handleCollapsed={handleCollapsed} />
+      </Sider>
 
-        <Layout className="site-layout">
-          <NavBar />
-          {children}
-        </Layout>
+      <Layout className="site-layout">
+        <NavBar />
+        {children}
       </Layout>
-    </div>
+    </Layout>
   );
 };
 
