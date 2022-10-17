@@ -14,7 +14,7 @@ const NavLinks = () => {
         {links.map(({ link, name }) => (
           <li key={name}>
             <Link href={link}>
-              <a className="flex gap-3 items-center text-white">
+              <a className="flex gap-3 items-center text-white hover:text-white ">
                 <span>{name}</span> <BsChevronDown size={12} />
               </a>
             </Link>
